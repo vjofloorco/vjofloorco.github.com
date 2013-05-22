@@ -19,6 +19,16 @@
 				min-width: 925px;
 				max-width: 925px;
 			}
+			#main2 {
+				background-color: #bbbbbb;
+				border-radius: 15px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				width: 925px;
+				min-width: 925px;
+				max-width: 925px;
+			}
 			#header {
 				margin-left: auto;
 				margin-right: auto;
@@ -43,9 +53,9 @@
 				height: 35px;
 				min-height: 35px;
 				max-height: 35px;
-				width: 75px;
-				min-width: 75px;
-				max-width: 75px;
+				width: 80px;
+				min-width: 80px;
+				max-width: 80px;
 				background-color: #aaaaaa;
 				margin: .75px;
 			}
@@ -58,16 +68,23 @@
 		<div id="main">
 			<div id="header">Vallejo Floor Company</div>
 			<div id="nav">
-				<a href="index.html"><button>Home</button></a>
-				<a href="hardwood.html"><button>Hardwood</button></a>
-				<a href="laminate.html"><button>Laminate</button></a>
-				<a href="tile.html"><button>Tile</button></a>
-				<a href="stone.html"><button>Stone</button></a>
-				<a href="carpet.html"><button>Carpet</button></a>
-				<a href="vinyl.html"><button>Vinyl</button></a>
-				<a href="countertops.html"><button>Countertops</button></a>
-				<a href="cabinetry.html"><button>Cabinetry</button></a>
-				<a href="contact.html"><button>Contact Us</button></a>
+				<a href="index.html"><button id="button_index">Home</button></a>
+				<a href="hardwood.html"><button id="button_hardwood">Hardwood</button></a>
+				<a href="laminate.html"><button id="button_laminate">Laminate</button></a>
+				<a href="tile.html"><button id="button_tile">Tile</button></a>
+				<a href="stone.html"><button id="button_stone">Stone</button></a>
+				<a href="carpet.html"><button id="button_carpet">Carpet</button></a>
+				<a href="vinyl.html"><button id="button_vinyl">Vinyl</button></a>
+				<a href="countertops.html"><button id="button_countertops">Countertops</button></a>
+				<a href="cabinetry.html"><button id="button_cabinetry">Cabinetry</button></a>
+				<a href="contact.html"><button id="button_contact">Contact Us</button></a>
+				<script type="text/javascript">
+					var url = window.location.pathname;
+					var filename = url.substring(url.lastIndexOf('/')+1);
+					var ourdiv = "button_" + filename.replace(".html","");
+					var elem = document.getElementById(ourdiv);
+					elem.setAttribute("style","font-weight: bold;");
+				</script>
 			</div>
 			<hr />
 
@@ -86,8 +103,19 @@
 <p>Because we realize how difficult it may be for a homeowner to plan their designs and layouts on their own, we are more than willing to provide you with a free estimation and <?php intLink("design", "design consultation"); ?>; allowing you to know exactly what you're getting and even see what it will look like before you make any decisions or invest any money into your project.  Our design consultations will also allow you to coordinate other aspects of your project, such as flooring and countertops.</p>
 
 
+		<hr />
+		<div style="text-align: center;">
+			<a href="https://www.facebook.com/pages/Vallejo-Floor-Company/205437875438"><img src="res/images/facebook.png" style="height: 75px; width: 75px;"></a>
+			<a href="http://www.yelp.com/biz/vallejo-floor-company-vallejo"><img src="res/images/yelp.png" style="height: 75px; width: 75px;"></a>
+		</div>
+		<!--
+		<div style="text-align: center;">
+			<img src="res/images/visa.jpg" style="height: 25px; width: 58px; padding:0px; border:1px solid #021a40;">
+			<img src="res/images/mastercard.jpg" style="height: 25px; width: 58px; padding:0px; border:1px solid #021a40;">
+		</div>
+		-->
 		</div>
 	</body>
 </html>
 
-<!-- Built Tue Jan 15 21:33:09 PST 2013 on michaels-laptop -->
+<!-- Built Tue May 21 14:35:57 PDT 2013 on Michaels-MacBook-Pro.local -->
