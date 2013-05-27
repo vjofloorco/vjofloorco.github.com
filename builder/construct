@@ -4,13 +4,24 @@ pagedir="core/pages"
 incldir="core/includes"
 outpdir=".."
 
-pages=$(ls $pagedir)
+if [ "$1" == "" ]; then
+	pages=$(ls $pagedir)
+else
+	pages="$1"
+fi
 
 for page in $pages;
 	do
-		rm $outpdir/$page.html
-		cat $incldir/head >> $outpdir/$page.html
-		cat $pagedir/$page >> $outpdir/$page.html
-		cat $incldir/end >> $outpdir/$page.html
-		echo "<!-- Built $(date) on $(hostname) -->" >> $outpdir/$page.html
+		echo "Issuing rebuild commands for $page..."
+		if [ -e $pagedir/$page ]; then
+			if [ -e $outpdir/$page.html ]; then
+				rm $outpdir/$page.html
+			fi
+			cat $incldir/head >> $outpdir/$page.html
+			cat $pagedir/$page >> $outpdir/$page.html
+			cat $incldir/end >> $outpdir/$page.html
+			echo "<!-- Built $(date) on $(hostname) -->" >> $outpdir/$page.html
+		else
+			echo "$page does not exist in $pagedir"
+		fi
 	done
