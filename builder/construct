@@ -1,0 +1,16 @@
+#!/bin/bash
+
+pagedir="core/pages"
+incldir="core/includes"
+outpdir=".."
+
+pages=$(ls $pagedir)
+
+for page in $pages;
+	do
+		rm $outpdir/$page.html
+		cat $incldir/head >> $outpdir/$page.html
+		cat $pagedir/$page >> $outpdir/$page.html
+		cat $incldir/end >> $outpdir/$page.html
+		echo "<!-- Built $(date) on $(hostname) -->" >> $outpdir/$page.html
+	done

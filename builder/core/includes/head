@@ -92,36 +92,3 @@
 			<hr>
 
 
-<div id="title">Hardwood</div>
-<hr>
-<p><center><a href="res/images/jobs/vanaken_hardwood.jpg"><img src="res/images/jobs/vanaken_hardwood.jpg" style="width: 400px;"></a></center></p>
-<p>Are you looking for the natural beauty, warmth, and easy maintenance of  hardwood floor?  If so, you have come to the right place.  No one can beat our selection and knowledge of hardwood flooring.  We have a wide selection of different stains, shades, and styles, including hand and machine scraped, engineered, and solid.  Stop in today and see what we have to offer.</p>
-<hr>
-<p style="text-align: center;">
-	<img src="res/images/logos/mohawk.png" style="height: 50px; padding: 10px;" alt="Mohawk Hardwood">
-	<img src="res/images/logos/millstone.png" style="height: 50px; padding: 10px;" alt="The Millstone Hardwood Collection">
-	<img src="res/images/logos/johnson.png" style="height: 50px; padding: 10px;" alt="Johnson Premium Hardwood Flooring">
-	<img src="res/images/logos/mirage.png" style="height: 50px; padding: 10px;" alt="Mirage Hardwood">
-	<img src="res/images/logos/mullican.png" style="height: 50px; padding: 10px;" alt="Mullican Hardwood">
-	<img src="res/images/logos/indusparquet.png" style="height: 50px; padding: 10px;" alt="IndusParquet Hardwood">
-	<img src="res/images/logos/ark.png" style="height: 50px; padding: 10px;" alt="Ark Hardwood Floors">
-	<img src="res/images/logos/homelegend.png" style="height: 50px; padding: 10px;" alt="Home Legend Hardwood Floors">
-</p>
-
-
-		<hr>
-		<div style="text-align: center;">
-			<a href="https://www.facebook.com/pages/Vallejo-Floor-Company/205437875438"><img src="res/images/social_media/facebook.png" style="height: 50px; width: 50px;" alt="Check out Vallejo Floor Company on Facebook!"></a>
-			<a href="http://www.yelp.com/biz/vallejo-floor-company-vallejo"><img src="res/images/social_media/yelp.png" style="height: 50px; width: 50px;" alt="Read and write reviews of Vallejo Floor Company on Yelp!"></a>
-		</div>
-		<!--
-		<div style="text-align: center;">
-			<img src="res/images/visa.jpg" style="height: 25px; width: 58px; padding:0px; border:1px solid #021a40;">
-			<img src="res/images/mastercard.jpg" style="height: 25px; width: 58px; padding:0px; border:1px solid #021a40;">
-		</div>
-		-->
-		</div>
-	</body>
-</html>
-
-<!-- Built Sun May 26 21:15:48 PDT 2013 on Michaels-MacBook-Pro.local -->

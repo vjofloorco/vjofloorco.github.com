@@ -1,0 +1,18 @@
+
+
+
+		<hr>
+		<div style="text-align: center;">
+			<a href="https://www.facebook.com/pages/Vallejo-Floor-Company/205437875438"><img src="res/images/social_media/facebook.png" style="height: 50px; width: 50px;" alt="Check out Vallejo Floor Company on Facebook!"></a>
+			<a href="http://www.yelp.com/biz/vallejo-floor-company-vallejo"><img src="res/images/social_media/yelp.png" style="height: 50px; width: 50px;" alt="Read and write reviews of Vallejo Floor Company on Yelp!"></a>
+		</div>
+		<!--
+		<div style="text-align: center;">
+			<img src="res/images/visa.jpg" style="height: 25px; width: 58px; padding:0px; border:1px solid #021a40;">
+			<img src="res/images/mastercard.jpg" style="height: 25px; width: 58px; padding:0px; border:1px solid #021a40;">
+		</div>
+		-->
+		</div>
+	</body>
+</html>
+
