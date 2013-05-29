@@ -7,7 +7,7 @@ outpdir=".."
 if [ "$1" == "" ]; then
 	pages=$(ls $pagedir)
 else
-	pages="$1"
+	pages="$@"
 fi
 
 for page in $pages;
