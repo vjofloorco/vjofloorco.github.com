@@ -1,5 +1,5 @@
 <div id="title">Tile</div>
-<hr>
+<center><img style="padding-bottom: 10px;" src="res/images/_accents/divider-simple.png" alt="-----"></center>
 <p style="text-align: center;">
 	<img src="res/images/logos/daltile.gif" style="height: 50px; padding: 10px;" alt="DalTile">
 	<img src="res/images/logos/americanolean.gif" style="height: 50px; padding: 10px;" alt="American Olean Porcelain &amp; Ceramic Tile">

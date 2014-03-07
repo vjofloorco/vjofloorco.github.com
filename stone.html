@@ -30,6 +30,7 @@
 			#header {
 				margin-left: auto;
 				margin-right: auto;
+				padding-bottom: 15px;
 				text-align: center;
 				font-family: logofont;
 				font-size: 50px;
@@ -52,9 +53,9 @@
 				height: 35px;
 				min-height: 35px;
 				max-height: 35px;
-				width: 75px;
-				min-width: 75px;
-				max-width: 75px;
+				width: 70px;
+				min-width: 70px;
+				max-width: 70px;
 				background-color: #aaaaaa;
 				margin: .75px;
 				padding: 0px;
@@ -62,13 +63,39 @@
 			button:hover {
 				background-color: #990022;
 			}
+			@keyframes highlight-btnout {
+				0% {
+					background: #990022;
+				}
+				20% {
+					background: #aaaaaa;
+				}
+				40% {
+					background: #990022;
+				}
+				60% {
+					background: #aaaaaa;
+				}
+				80% {
+					background: #990022;
+				}
+				100% {
+					background: #aaaaaa;
+				}
+			}
+			#button_specials {
+				animation: highlight-btnout 5s;
+				width: 110px;
+				min-width: 110px;
+				max-width: 110px;
+			}
 		</style>
 	</head>
 	<body>
 		<a href="contact.html"><img style="position: absolute; top: 0; right: 0; border: 0;" src="res/images/ribbons/free_estimates_right.png" alt="Special Financing"></a>
 		<a href="financing.html"><img style="position: absolute; top: 0; left: 0; border: 0;" src="res/images/ribbons/special_financing_left.png" alt="Free Estimates"></a>
 		<div id="main">
-			<div id="header">Vallejo Floor Company</div>
+			<div id="header"><img style="width: 650px;" src="res/images/logo.png" alt="Vallejo Floor Company"></div>
 			<div id="nav">
 				<a href="index.html"><button id="button_index">Home</button></a>
 				<a href="hardwood.html"><button id="button_hardwood">Hardwood</button></a>
@@ -76,11 +103,11 @@
 				<a href="tile.html"><button id="button_tile">Tile</button></a>
 				<a href="stone.html"><button id="button_stone">Stone</button></a>
 				<a href="carpet.html"><button id="button_carpet">Carpet</button></a>
-				<a href="vinyl.html"><button id="button_vinyl">Vinyl</button></a>
+				<a href="vinyl.html"><button id="button_vinyl">Vinyl &amp; LVT</button></a>
 				<a href="countertops.html"><button id="button_countertops">Countertops</button></a>
 				<a href="cabinetry.html"><button id="button_cabinetry">Cabinetry</button></a>
 				<a href="financing.html"><button id="button_financing">Financing</button></a>
-				<a href="specials.html"><button id="button_specials_" style="background-color: #DF013A; width: 100px; min-width: 100px; max-width: 100px;">In-Stock Specials</button></a>
+				<a href="specials.html"><button id="button_specials">In-Stock Specials</button></a>
 				<a href="contact.html"><button id="button_contact">Contact</button></a>
 				<script type="text/javascript">
 					var url = window.location.pathname;
@@ -90,16 +117,17 @@
 					elem.setAttribute("style","font-weight: bold;");
 				</script>
 			</div>
-			<hr>
+			<center><img style="padding-bottom: 10px;" src="res/images/_accents/divider-ribbon.png" alt="-----"></center>
 
 
 <div id="title">Stone</div>
-<hr>
+<center><img style="padding-bottom: 10px;" src="res/images/_accents/divider-simple.png" alt="-----"></center>
 <p style="text-align: center;"><a href="res/images/showroom/stone.jpg"><img src="res/images/showroom/stone.jpg" style="width: 400px;" alt="Natural stone selection at Vallejo Floor Company"></a></p>
 <p>Natural stone is a natural product of beauty.  Natural stone can be used for flooring, or walls, and can be used outside as well.  Natural stone adds elegance and value to your home.  Another benefit of natural stone is its resistance to water when properly sealed.  At Vallejo Floor Company, all of our staff are knowledgeable in the field of natural stone, and can help you with all aspects of natural stone, and natural stone care.  Come in today and let the professionals at Vallejo Floor Company help with all aspects of natural stone.</p>
 
 
-		<hr>
+
+		<center><img style="padding-bottom: 10px;" src="res/images/_accents/divider-simple.png" alt="-----"></center>
 		<div style="text-align: center;">
 			<a href="https://www.facebook.com/pages/Vallejo-Floor-Company/205437875438"><img src="res/images/social_media/facebook.png" style="height: 50px; width: 50px;" alt="Check out Vallejo Floor Company on Facebook!"></a>
 			<a href="http://www.yelp.com/biz/vallejo-floor-company-vallejo"><img src="res/images/social_media/yelp.png" style="height: 50px; width: 50px;" alt="Read and write reviews of Vallejo Floor Company on Yelp!"></a>
@@ -114,4 +142,4 @@
 	</body>
 </html>
 
-<!-- Built Mon Mar  3 11:21:42 PST 2014 on mansellm-laptop -->
+<!-- Built Fri Mar  7 11:09:51 PST 2014 on mansellm-laptop -->
