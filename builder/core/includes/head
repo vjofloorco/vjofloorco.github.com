@@ -117,6 +117,6 @@
 					elem.setAttribute("style","font-weight: bold;");
 				</script>
 			</div>
-			<center><img style="padding-bottom: 10px;" src="res/images/_accents/divider-ribbon.png" alt="-----"></center>
+			<center><img style="padding-bottom: 10px;" src="res/images/design_elements/divribbon.png" alt="-----"></center>
 
 
