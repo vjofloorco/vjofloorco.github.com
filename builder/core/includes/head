@@ -107,7 +107,6 @@
 				<a href="countertops.html"><button id="button_countertops">Countertops</button></a>
 				<a href="cabinetry.html"><button id="button_cabinetry">Cabinetry</button></a>
 				<a href="financing.html"><button id="button_financing">Financing</button></a>
-				<a href="specials.html"><button id="button_specials">In-Stock Specials</button></a>
 				<a href="contact.html"><button id="button_contact">Contact</button></a>
 				<script type="text/javascript">
 					var url = window.location.pathname;
